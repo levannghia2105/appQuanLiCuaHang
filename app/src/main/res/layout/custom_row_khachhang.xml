@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <TextView
+            android:id="@+id/txtTen"
+            android:background="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="LÊ Văn Nghĩa"
+            android:textColor="#FFE500"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/txtGioiTinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nữ"
+            android:textColor="#f000"
+            android:gravity="center"
+            android:background="#FFE500"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/customedt"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ngày Sinh"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/txtNgaySinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Nữ"
+            android:textColor="#f000"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/customedt"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Sđt"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/txtSdt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="0232930293"
+            android:textColor="#f000"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/customedt"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Đã cắt"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/txtSoLanCat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="3"
+            android:textColor="#f000"
+            android:gravity="center"
+
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sceen.ThemKhachHang"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#f000"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Khách Hàng"
+            android:textColor="#E8FF00"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Khách Hàng"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/edtKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/customedt"
+        android:layout_margin="10dp"
+        android:hint="Nhập tên khách hàng"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày Sinh"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="5"
+        >
+        <ImageView
+            android:id="@+id/imgNgaySinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/caledar"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edtNgaySinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/customedt"
+
+            android:hint="21/05/0000"
+            android:gravity="center"
+            android:textColorHint="#57000000"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số Điện Thoại"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/edtSdt"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:background="@drawable/customedt"
+        android:layout_margin="5dp"
+        android:hint="0337823XX"
+        android:gravity="center"
+        android:textColorHint="#68000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa Chỉ"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/customedt"
+        android:layout_margin="5dp"
+        android:hint="mô tả"
+        android:gravity="center"
+        android:textColorHint="#68000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới Tính"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <LinearLayout
+        android:background="@drawable/customedt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+        <TextView
+
+            android:id="@+id/txtThemNam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nam"
+            android:gravity="center"
+            android:textColor="#f000"
+
+            />
+        <TextView
+            android:id="@+id/txtThemNu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nữ"
+            android:gravity="center"
+            android:textColor="#f000"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:textColor="#f000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/edtThemMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/customedt"
+        android:layout_margin="5dp"
+        android:hint="mô tả"
+        android:gravity="center"
+        android:textColorHint="#68000000"/>
+
+    <TextView
+        android:id="@+id/txtThemKh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:text="Thêm"
+        android:textColor="#FFE500"
+        android:textSize="20sp"
+>
+
+
+    </TextView>
+
+
+
+
+</LinearLayout>
